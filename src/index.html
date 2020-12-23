@@ -2,7 +2,7 @@
 layout: default
 title: BrainsCloud | Home
 ---
-
+<!-- stories -->
 <div class="stories">
 	<div class="stories__item">
 		<img class="stories__preview" src="./assets/images/stories/stories_1.jpg" alt="stories_1">
@@ -25,3 +25,16 @@ title: BrainsCloud | Home
 		<time class="stories__time" datetime="2020-08-20">28.08.2020</time>
 	</div>
 </div><!-- stories -->
+
+<!-- Add post -->
+<div class="add-post">
+	<form class="add-post__form">
+		<textarea class="add-post__text" placeholder="Напишите что-нибудь" name="post_text" id=""></textarea>
+		<div class="add-post__form-actions">
+			<label class="add-post__file" for="add-post-file">
+				<input  type="file" id="add-post-file"/>
+			</label>
+			<button class="add-post__send" type="submit"><img src="./assets/images/send.svg" alt="Отправить"></button>
+		</div>
+	</form>
+</div>
