@@ -1,0 +1,21 @@
+.post{
+	background-color: $primary;
+	box-shadow: 0 15px 25px rgba(#000000, 25%);
+
+	margin-bottom: 3rem;
+	padding: 2.5rem;
+	border-radius: 5px;
+}
+
+.post__content{
+	margin-bottom: 2rem;
+}
+
+.post__text{
+	font-size: 1.4rem;
+	color: $post-color-text;
+}
+
+.post__data{
+	color: #828282;
+}

@@ -54,7 +54,7 @@
 	background: #EBEBEB url("../images/photo.svg") center no-repeat;
 
 	&:hover{
-		background: darken(#EBEBEB, 5%);
+		background: darken(#EBEBEB, 10%) url("../images/photo.svg") center no-repeat;
 	}
 }
 
@@ -64,6 +64,6 @@
 	background: $blue;
 
 	&:hover{
-		background: darken($blue, 5%);
+		background: darken($blue, 10%);
 	}
 }
